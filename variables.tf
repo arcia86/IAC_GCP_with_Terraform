@@ -11,5 +11,5 @@ variable "zone" {
 variable "project_id" {
   description = "The ID of the project in which to provision resources."
   type        = string
-  default     = "FILL IN YOUR (UNIQUE) BUCKET NAME HERE"
+  default     = "FILL IN YOUR (UNIQUE) PROJECT ID HERE"
 }

@@ -11,7 +11,5 @@ variable "zone" {
 variable "project_id" {
   description = "The ID of the project in which to provision resources."
   type        = string
-  default     = "FILL IN YOUR (UNIQUE) BUCKET NAME HERE"
+  default     = "FILL IN YOUR (UNIQUE) PROJECT ID HERE"
 }
-
-terraform import google_compute_instance.default projects/qwiklabs-gcp-02-be282b9abe1d/zones/us-central1-a/instances/tf-instance-1
